@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E152976815474A0900D1FBCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E152976715474A0900D1FBCC /* UIKit.framework */; };
+		E152976A15474A0900D1FBCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E152976915474A0900D1FBCC /* Foundation.framework */; };
+		E152976C15474A0900D1FBCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E152976B15474A0900D1FBCC /* CoreGraphics.framework */; };
+		E152977215474A0900D1FBCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E152977015474A0900D1FBCC /* InfoPlist.strings */; };
+		E152977415474A0900D1FBCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E152977315474A0900D1FBCC /* main.m */; };
+		E152977815474A0900D1FBCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E152977715474A0900D1FBCC /* AppDelegate.m */; };
+		E152977B15474A0900D1FBCC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E152977915474A0900D1FBCC /* MainStoryboard.storyboard */; };
+		E152977E15474A0900D1FBCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E152977D15474A0900D1FBCC /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E152976315474A0900D1FBCC /* YAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E152976715474A0900D1FBCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E152976915474A0900D1FBCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E152976B15474A0900D1FBCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E152976F15474A0900D1FBCC /* YAT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YAT-Info.plist"; sourceTree = "<group>"; };
+		E152977115474A0900D1FBCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E152977315474A0900D1FBCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E152977515474A0900D1FBCC /* YAT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YAT-Prefix.pch"; sourceTree = "<group>"; };
+		E152977615474A0900D1FBCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E152977715474A0900D1FBCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E152977A15474A0900D1FBCC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E152977C15474A0900D1FBCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E152977D15474A0900D1FBCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E152976015474A0900D1FBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E152976815474A0900D1FBCC /* UIKit.framework in Frameworks */,
+				E152976A15474A0900D1FBCC /* Foundation.framework in Frameworks */,
+				E152976C15474A0900D1FBCC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E152975815474A0900D1FBCC = {
+			isa = PBXGroup;
+			children = (
+				E152976D15474A0900D1FBCC /* YAT */,
+				E152976615474A0900D1FBCC /* Frameworks */,
+				E152976415474A0900D1FBCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E152976415474A0900D1FBCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E152976315474A0900D1FBCC /* YAT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E152976615474A0900D1FBCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E152976715474A0900D1FBCC /* UIKit.framework */,
+				E152976915474A0900D1FBCC /* Foundation.framework */,
+				E152976B15474A0900D1FBCC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E152976D15474A0900D1FBCC /* YAT */ = {
+			isa = PBXGroup;
+			children = (
+				E152977615474A0900D1FBCC /* AppDelegate.h */,
+				E152977715474A0900D1FBCC /* AppDelegate.m */,
+				E152977915474A0900D1FBCC /* MainStoryboard.storyboard */,
+				E152977C15474A0900D1FBCC /* ViewController.h */,
+				E152977D15474A0900D1FBCC /* ViewController.m */,
+				E152976E15474A0900D1FBCC /* Supporting Files */,
+			);
+			path = YAT;
+			sourceTree = "<group>";
+		};
+		E152976E15474A0900D1FBCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E152976F15474A0900D1FBCC /* YAT-Info.plist */,
+				E152977015474A0900D1FBCC /* InfoPlist.strings */,
+				E152977315474A0900D1FBCC /* main.m */,
+				E152977515474A0900D1FBCC /* YAT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E152976215474A0900D1FBCC /* YAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E152978115474A0900D1FBCC /* Build configuration list for PBXNativeTarget "YAT" */;
+			buildPhases = (
+				E152975F15474A0900D1FBCC /* Sources */,
+				E152976015474A0900D1FBCC /* Frameworks */,
+				E152976115474A0900D1FBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YAT;
+			productName = YAT;
+			productReference = E152976315474A0900D1FBCC /* YAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E152975A15474A0900D1FBCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E152975D15474A0900D1FBCC /* Build configuration list for PBXProject "YAT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E152975815474A0900D1FBCC;
+			productRefGroup = E152976415474A0900D1FBCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E152976215474A0900D1FBCC /* YAT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E152976115474A0900D1FBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E152977215474A0900D1FBCC /* InfoPlist.strings in Resources */,
+				E152977B15474A0900D1FBCC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E152975F15474A0900D1FBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E152977415474A0900D1FBCC /* main.m in Sources */,
+				E152977815474A0900D1FBCC /* AppDelegate.m in Sources */,
+				E152977E15474A0900D1FBCC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E152977015474A0900D1FBCC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E152977115474A0900D1FBCC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E152977915474A0900D1FBCC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E152977A15474A0900D1FBCC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E152977F15474A0900D1FBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E152978015474A0900D1FBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E152978215474A0900D1FBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAT/YAT-Prefix.pch";
+				INFOPLIST_FILE = "YAT/YAT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E152978315474A0900D1FBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAT/YAT-Prefix.pch";
+				INFOPLIST_FILE = "YAT/YAT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E152975D15474A0900D1FBCC /* Build configuration list for PBXProject "YAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E152977F15474A0900D1FBCC /* Debug */,
+				E152978015474A0900D1FBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E152978115474A0900D1FBCC /* Build configuration list for PBXNativeTarget "YAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E152978215474A0900D1FBCC /* Debug */,
+				E152978315474A0900D1FBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E152975A15474A0900D1FBCC /* Project object */;
+}
